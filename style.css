@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid black;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+}

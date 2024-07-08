@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Header Example</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header-left {
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .header-right {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-link {
+            margin-left: 20px;
+        }
+
+        .header-link a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1em;
+        }
+
+        .header-link a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="header-left">Profile</a>
+        <ol class="header-right">
+            <li class="header-link"><a href="#">About</a></li>
+            <li class="header-link"><a href="#">Bicycle</a></li>
+        </ol>
+    </header>
+</body>
+</html>
